@@ -320,4 +320,26 @@ body {
   .legend {
     display: none;
   }
+  .card {
+    padding: 14px 16px;
+  }
+  .card h2 {
+    font-size: 1.1rem;
+  }
+  .addr {
+    font-size: 0.95rem;
+  }
+  .pill {
+    font-size: 0.85rem;
+    padding: 4px 10px;
+  }
+  .rate-now {
+    font-size: 1.3rem;
+  }
+  .rate-lines {
+    font-size: 0.92rem;
+  }
+  .source {
+    font-size: 0.8rem;
+  }
 }
