@@ -290,8 +290,8 @@ async function boot() {
   `;
 
   state.map = L.map("map", { zoomControl: true }).setView(SG_CENTER, 12);
-  L.tileLayer("https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png", {
-    attribution: '&copy; OpenStreetMap &copy; CARTO · lots: data.gov.sg · rates: HDB / LTA',
+  L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors · lots: data.gov.sg · rates: HDB / LTA',
     maxZoom: 19,
   }).addTo(state.map);
 
